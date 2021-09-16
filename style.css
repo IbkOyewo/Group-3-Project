@@ -116,6 +116,7 @@ body{
     font-size: 42px;
     color: #FFFFFF;
     line-height: 154.7%;
+    margin-top: 58px;
 }
 
 .herobanner .heading {
@@ -273,6 +274,7 @@ body{
     .herobanner h1 {
         width: 80%;
         text-align: center;
+        margin-top: 32px;
     }
 
     .navbar {
