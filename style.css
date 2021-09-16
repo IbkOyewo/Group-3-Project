@@ -7,248 +7,6 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
-.work-flow-section {
-    width: 100%;
-    height: 453px;
-    background-image: url(/images/section_men-1\ 1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #3a074681;
-}
-
-.background-overlay {
-    opacity: 3;
-    background-color: #3a074681;
-    width: 100%;
-    height: 453px;
-}
-
-.work-flow-text {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: block;
-    color: #fff;
-    padding: 16px 0px;
-}
-
-.work-flow-text p {
-    font-weight: 200;
-    font-size: 2em;
-    margin-top: 10px;
-}
-
-.work-flow-text span {
-    margin-top: 10px;
-    font-size: 0.8em;
-}
-
-.options {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.section {
-    display: block;
-    text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20px;
-    justify-items: center;
-    color: #fff;
-}
-
-.section-img {
-    display: flex;
-    height: 80px;
-    width: 80px;
-    border: 2px solid #EE2B7A;
-    border-radius: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.section-text {
-    margin-top: 20px;
-    font-size: 14px;
-}
-
-.section-text span {
-    font-weight: 300;
-}
-
-.section-text p {
-    font-weight: 70;
-}
-
-.testimonial-section {
-    width: 100%;
-    height: 630px;
-    margin-top: 20px;
-}
-
-.testimonial-section-text {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: block;
-    color: #474747;
-    padding: 16px 0px;
-}
-
-.testimonial-section-text p {
-    font-weight: 200;
-    font-size: 2em;
-    margin-top: 10px;
-}
-
-.testimonial-section-text span {
-    margin-top: 10px;
-    font-size: 0.8em;
-}
-
-.testimonial-section-text span {
-    color: #EE2B7A;
-}
-
-.testimonial-images {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 25px;
-    margin-right: 40px;
-    margin-top: 30px;
-}
-
-.testimonies {
-    background-image: url(./icons/testimony-bg.svg);
-    width: 360px;
-    height: 410px;
-    text-align: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    padding: 20px;
-    justify-items: center;
-    color: #000;
-}
-
-.testimonial-img {
-    margin-top: 40px;
-    padding: 22px;
-    margin-left: 10px;
-    justify-items: center;
-
-}
-
-.testimonial-text {
-    padding: 20px 10px 20px 10px;
-    font-weight: 100;
-    font-size: 14px;
-    padding: 16px;
-    margin-left: 40px;
-    margin-right: 20px;
-}
-
-.news-section {
-    width: 100%;
-    height: 690px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-.news-section-header {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    display: block;
-    color: #474747;
-    padding: 16px 0px;
-}
-
-.news-section-header span {
-    font-weight: lighter;
-    font-size: 30px;
-}
-
-.news-section-header p {
-    font-weight: lighter;
-    font-size: 12px;
-}
-
-.news-section-img {
-    width: 97%;
-    background-image: url(./images/news-image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 30px;
-    margin-right: 20px;
-    height: 420px;
-    justify-content: center;
-}
-
-.news-section-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 25px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 30px;
-    text-align: center;
-    padding: 3px 20px 3px 20px;
-}
-
-.news-section-text {
-    margin-left: 30px;
-    margin-right: 30px;
-    align-content: center;
-}
-
-
-.news-section-text span {
-    font-weight: bold;
-    font-size: 14px;
-    color: #565656;
-}
-
-.news-section-text p {
-    font-size: 12px;
-    color: #000;
-}
-
-.news-section-text-two {
-    margin-left: 12em;
-    align-content: center;
-    align-items: center;
-}
-
-
-.news-section-text-two span {
-    font-weight: bold;
-    font-size: 14px;
-    color: #565656;
-}
-
-.news-section-text-two p {
-    font-size: 12px;
-    color: #000;
-}
-
-.read-more-btn {
-    width: 130px;
-    height: 30px;
-    border: none;
-    background-color: #EE2B7A;
-    border-radius: 3px;
-    color: #fff;
-}
-
 .header-box {
     background: #772D8B;
     border-bottom: 1px solid #000000;
@@ -507,6 +265,248 @@ body{
     font-size: 14px;
 }
 
+.work-flow-section {
+    width: 100%;
+    height: 453px;
+    background-image: url(/images/section_men-1\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3a074681;
+}
+
+.background-overlay {
+    opacity: 3;
+    background-color: #3a074681;
+    width: 100%;
+    height: 453px;
+}
+
+.work-flow-text {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    color: #fff;
+    padding: 16px 0px;
+}
+
+.work-flow-text p {
+    font-weight: 200;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.work-flow-text span {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section {
+    display: block;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    justify-items: center;
+    color: #fff;
+}
+
+.section-img {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #EE2B7A;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.section-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.section-text span {
+    font-weight: 300;
+}
+
+.section-text p {
+    font-weight: 70;
+}
+
+.testimonial-section {
+    width: 100%;
+    height: 630px;
+    margin-top: 20px;
+}
+
+.testimonial-section-text {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    color: #474747;
+    padding: 16px 0px;
+}
+
+.testimonial-section-text p {
+    font-weight: 200;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.testimonial-section-text span {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.testimonial-section-text span {
+    color: #EE2B7A;
+}
+
+.testimonial-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.testimonies {
+    background-image: url(./icons/testimony-bg.svg);
+    width: 360px;
+    height: 410px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    justify-items: center;
+    color: #000;
+}
+
+.testimonial-img {
+    margin-top: 40px;
+    padding: 22px;
+    margin-left: 10px;
+    justify-items: center;
+
+}
+
+.testimonial-text {
+    padding: 20px 10px 20px 10px;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 16px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.news-section {
+    width: 100%;
+    height: 690px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.news-section-header {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    color: #474747;
+    padding: 16px 0px;
+}
+
+.news-section-header span {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.news-section-header p {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.news-section-img {
+    width: 97%;
+    background-image: url(./images/news-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 20px;
+    height: 420px;
+    justify-content: center;
+}
+
+.news-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 3px 20px 3px 20px;
+}
+
+.news-section-text {
+    margin-left: 30px;
+    margin-right: 30px;
+    align-content: center;
+}
+
+
+.news-section-text span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #565656;
+}
+
+.news-section-text p {
+    font-size: 12px;
+    color: #000;
+}
+
+.news-section-text-two {
+    margin-left: 12em;
+    align-content: center;
+    align-items: center;
+}
+
+
+.news-section-text-two span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #565656;
+}
+
+.news-section-text-two p {
+    font-size: 12px;
+    color: #000;
+}
+
+.read-more-btn {
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: #EE2B7A;
+    border-radius: 3px;
+    color: #fff;
+}
+
 .video{
     background-image: url(/icons/truck.png);
     background-repeat: no-repeat;
@@ -602,7 +602,7 @@ line-height: 154.7%;
 font-size: 18px;
 line-height: 154.7%;
 }
-.row{
+.footer-wrapper .row{
     height: 163px;
     margin-bottom: 50px;
 }
