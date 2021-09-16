@@ -6,3 +6,341 @@ body{
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
+
+.header-box {
+    background: #772D8B;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 21px 0 17px;
+}
+
+.header-sm-icons {
+    display: flex;
+    column-gap: 14px;
+}
+
+.header-box-text {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.header-box-text p:first-of-type {
+    margin-right: 26px;
+    color: #FFC42D;
+}
+
+.header-box-text p:last-of-type {
+    margin-right: 6px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    background: #00000042;
+}
+
+.nav-brand {
+    display: flex;
+    column-gap: 41px;
+    align-items: center;
+}
+
+.nav-helpline {
+    text-align: center;
+}
+
+.nav-helpline p {
+    margin: 6px 0;
+}
+
+.nav-helpline p:first-of-type {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nav-helpline p:last-of-type {
+    font-weight: 600;
+    font-size: 19px;
+    color: #FFC42D;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    column-gap: 38px;
+    padding: 0 15px 0 0;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.nav-links .nav-button {
+    background: #EE2B7A;
+    border-radius: 5px;
+    padding: 7.5px 22.5px 7.5px 24.5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.herobanner {
+    background-image: url(./images/background.svg);
+    padding: 167px 67px 134px;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.herobanner h1 {
+    width: 42%;
+    font-weight: 300;
+    font-size: 42px;
+    color: #FFFFFF;
+    line-height: 154.7%;
+}
+
+.herobanner .heading {
+    font-size: 76px;
+}
+
+.herobanner-form {
+    background: rgba(55, 55, 55, 0.79);
+    border-radius: 5px;
+    padding: 18px 38px 41px 35px;
+    width: 340px;
+}
+
+.herobanner input,
+.herobanner button {
+    width: 100%;
+}
+
+.herobanner-form h2 {
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.herobanner-form input {
+    padding: 12px 19px 14px;
+    font-size: 14px;
+    color: #848484;
+}
+
+.herobanner input:first-of-type {
+    margin-bottom: 19px;
+}
+
+.forgot-password-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #B6C4DA;
+    margin: 10px 0 40px;
+    text-align: end;
+}
+
+.login-button {
+    padding: 13px 0;
+    background-color: #EE2B7A;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.signup-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #F8F5F5;
+    margin: 18px 0 0;
+    text-align: center;
+}
+
+.signup-text a {
+    color: #EE2B7A;
+}
+
+.about-section {
+    display: flex;
+    padding: 48px 59px 95px 69px;
+    align-items: center;
+}
+
+.about-section div {
+    width: 50%;
+}
+
+.about-text {
+    padding-right: 125px;
+    padding-left: 40px;
+}
+
+.about-text h2,
+.services-section h2 {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #995AAA;
+    margin: 0;
+}
+
+.about-text h3,
+.services-section h3 {
+    font-weight: 300;
+    font-size: 40px;
+    color: #474747;
+    margin: 0;
+}
+
+.about-section p {
+    margin: 0 0 18px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.about-section p:first-of-type {
+    margin-top: 16px;
+}
+
+.about-img {
+    padding-left: 38px;
+}
+
+.about-section img {
+    width: 100%;
+}
+
+.services-section {
+    text-align: center;
+}
+
+.icon-box {
+    width: 106px;
+    height: 106px;
+    background-color: #772D8B;
+    margin: 0 auto 76px;
+    padding: 23px;
+}
+
+.services-section .row {
+    margin: 100px 63px 158px 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-section .col {
+    width: 23%;
+    box-shadow: 2px 4px 26px rgba(0, 0, 0, 0.07);
+    padding: 29px 12px;
+}
+
+.services-section h4 {
+    font-weight: 600;
+    color: #565656;
+    margin-bottom: 24px;
+}
+
+.services-section p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    .herobanner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herobanner h1 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .navbar {
+        padding-right: 50px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        width: 50px;
+    }
+
+    .hamburger-menu img {
+        width: 100%;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section div {
+        width: 90%;
+    }
+
+    .about-text {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .about-img {
+        padding: 0;
+    }
+
+    .services-section .row {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .services-section .col {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-box {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .navbar {
+        top: 103px;
+    }
+
+    .herobanner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .services-section .row {
+        flex-direction: column;
+    }
+
+    .services-section .col {
+        width: 100%;
+    }
+}
