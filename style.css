@@ -761,12 +761,41 @@ line-height: 154.7%;
 }
 
 @media screen and (max-width: 475px) {
+    .header-box-text {
+        flex-direction: column;
+    }
+
+    .navbar {
+        top: 168px;
+    }
+
+    .nav-brand {
+        column-gap: 18px;
+    }
+
+    .herobanner h1 {
+        font-size: 32px;
+        margin-bottom: 38px;
+    }
+
+    .herobanner .heading {
+        font-size: 56px;
+    }
+
+    .work-flow-section {
+        height: 700px;
+    }
+
     .services-section .row {
         flex-direction: column;
     }
 
     .services-section .col {
         width: 100%;
+    }
+
+    .news-section-img {
+        width: auto;
     }
 
     .footer-wrapper {
