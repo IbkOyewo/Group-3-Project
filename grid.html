@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>About us</title>
+	</head>
+	<style>
+		.flex-row {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 6em;
+		}
+
+		.flex-col {
+			border: 1px solid #f1f2f3;
+			background: violet;
+			color: #fff;
+			padding: 0 1em;
+			flex-grow: 1;
+		}
+
+		.__special_item {
+			flex-basis: 50%;
+			background: purple;
+			order: 1;
+		}
+
+		.grid-row {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(4, 10em);
+		}
+
+		.grid-col {
+			background: tomato;
+			padding: 0 1em;
+			color: white;
+			border: 1px solid white;
+		}
+
+		.__special_grid_item {
+			background-color: blue;
+			grid-column: 2/3;
+			grid-row: 1;
+		}
+	</style>
+	<body>
+		<section>
+			<div class="container">
+				<div class="grid-row">
+					<div class="grid-col">
+						<h1>first div &#x1F34F;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>second div &#x1F34E;</h1>
+					</div>
+					<div class="grid-col __special_grid_item">
+						<h1>third div &#8358;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>fourth div &#x1F40D;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>fiveth div</h1>
+					</div>
+					<div class="grid-col">
+						<h1>6 div &#x1F40D;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>7 div</h1>
+					</div>
+					<div class="grid-col">
+						<h1>8 div &#x1F40D;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>9 div</h1>
+					</div>
+
+					<div class="grid-col">
+						<h1>10 div</h1>
+					</div>
+					<div class="grid-col">
+						<h1>11 div &#x1F40D;</h1>
+					</div>
+					<div class="grid-col">
+						<h1>12 div</h1>
+					</div>
+				</div>
+
+				<div class="flex-row">
+					<div class="flex-col">
+						<h1>first div &#x1F34F;</h1>
+					</div>
+					<div class="flex-col">
+						<h1>second div &#x1F34E;</h1>
+					</div>
+					<div class="flex-col __special_item">
+						<h1>third div &#8358;</h1>
+					</div>
+					<div class="flex-col">
+						<h1>fourth div &#x1F40D;</h1>
+					</div>
+					<div class="flex-col">
+						<h1>fiveth div</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
